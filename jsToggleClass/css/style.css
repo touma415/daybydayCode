@@ -1,0 +1,33 @@
+.class-default {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  transition: all 500ms ease-in-out;
+}
+
+.class-default::before {
+  position: absolute;
+  content: "ふつうのすがた";
+  color: #fff;
+  top: 40%;
+  left: 25%;
+}
+
+.class-toggled {
+  position: relative;
+  transform: translateX(300px);
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+}
+
+.class-toggled::before {
+  position: absolute;
+  content: "かわったすがた";
+  color: #ffffff;
+  top: 40%;
+  left: 25%;
+}
