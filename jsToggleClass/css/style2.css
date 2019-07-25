@@ -1,0 +1,17 @@
+.class-default {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/image1.png");
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+}
+
+.class-toggled {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/image2.png");
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+}
