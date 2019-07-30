@@ -2,7 +2,7 @@
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url("../images/image1.png");
+  background-image: url("https://drive.google.com/uc?export=view&id=1y7mmtTXrNGaId2KBXCGZJmeyMkLidcm9");
   background-repeat: no-repeat;
   transition: all 200ms ease-in-out;
 }
@@ -11,7 +11,7 @@
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url("../images/image2.png");
+  background-image: url("https://drive.google.com/uc?export=view&id=1xnrEpanTKZOgp6jTRkXwXr32VkC_E4pY");
   background-repeat: no-repeat;
   transition: all 200ms ease-in-out;
 }
